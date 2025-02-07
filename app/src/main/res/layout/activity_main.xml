@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="#847464"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crud Operation... "
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/txt_id"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Enter Id"
+        android:textColorHint="@color/black"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Enter Name"
+        android:textColorHint="@color/black"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/txt_marks"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Enter Marks"
+        android:textColorHint="@color/black"
+        android:background="@color/white"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Insert"
+        android:textSize="22sp"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Items View "
+        android:textSize="22sp"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btn_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Edit Items"
+        android:textSize="22sp"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Delete Items"
+        android:textSize="22sp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
